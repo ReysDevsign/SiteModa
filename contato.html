@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script>
+        function Mensagem() {
+            alert('Esteja logado em seu email para enviar mensagem!');
+
+        }
+    </script>
+
+
+    <title>Contato</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+
+            <a href="#"> <img src="imagens/logo.png" alt=""> </a>
+            <ul class="menu">
+
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Masculino</a> </li>
+                <li> <a href="#">Feminino</a> </li>
+                <li> <a href="#">Contato</a> </li>
+            </ul>
+        </nav>
+
+        <main>
+            <div class="contato">
+                <div class="lado-esquerdo">
+                    <h2>Contato</h2>
+
+                    <form method="POST" action="mailto: reysdevsign@gmail.com" enctype="text/plain">
+                        <label form="nome">Nome</label>
+                        <input type="text" id="nome" name="nome">
+
+                        <label form="email">Email</label>
+                        <input type="email" id="email" name="email">
+
+                        <label form="Telefone">Telefone</label>
+                        <input type="tel" id="Telefone" name="fone">
+                        <label for="Mensagem">Mensagem</label>
+                        <textarea id="Mensagem" name="mensagem"></textarea>
+                        <input type="submit" value="Cadastrar" class="btn-form" onclick="Msg()">
+
+                    </form>
+
+
+                </div>
+                <div class="lado-direito">
+                    <footer class="footer-contato">
+                        <p> (31) 99999-9999 </p>
+
+                        <p>contato@divinafashion.com</p>
+
+                        <p>AV. Principal, 123 . Cajamar/SP </p>
+                    </footer>
+
+
+                </div>
+            </div>
+
+
+        </main>
+
+        <footer>
+            <p> 31 99999 9666 </p>
+
+            <p>contato@divinafashion.com</p>
+
+            <p>AV. Principal, 123 . BH/MG</p>
+        </footer>
+
+
+
+    </header>
+
+
+
+</body>
+
+</html>
